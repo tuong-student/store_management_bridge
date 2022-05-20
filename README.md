@@ -5,7 +5,7 @@
 # FUNCTION: 
 You can use this application to manage (adding, editing, deleting) City info, Customer info, Products, Employees, Bill and Detail of Bill...
 # ABOUT BRIDGE: 
-- It have an interface (BusinessLayer) to define all the function that each class in Business Layer use.
+- One interface (BusinessLayer) to define all the function that each class in Business Layer use.
 - One abstract class (AbstractManage) use to link the interface and the way we use functions in the interface.
 - InfoHolder: Is the support class that I use it to store all the infomation that will be needed in the whole application (Product name, Custommer name, Employee name, ...)
 # What I have learn
